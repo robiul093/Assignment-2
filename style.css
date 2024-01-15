@@ -155,6 +155,115 @@ nav ul li:hover a{
     margin-top: 20px;
 }
 
+            /* destination style */
+
+.destination-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}            
+.destination-description{
+    width: 600px;
+    margin: 25px auto 40px;
+    color: #131318B2;
+    text-align: center;
+    line-height: 160%;
+}
+
+.destination-place-container{
+   /* display: grid;
+   grid-template-columns: repeat(4, 1fr); */
+}
+
+.destination-place{
+    /* background: url(Images/Rectangle\ 5.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* padding: 100px; */
+    
+    /* color: #FFF;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 800; */
+}
+.place1{
+    /* grid-column: span 2; */
+}
+.place2{
+    /* grid-column: span 2; */
+}
+.place3{
+    /* grid-column: span 1; */
+}
+.place4{
+    /* grid-column: span 2; */
+}
+.place5{
+    /* grid-column: span 1; */
+}
+.place6{
+    /* grid-column: span 1.5; */
+}
+.place7{
+    /* grid-column: span 3.5; */
+}
+
+
+                /* choose us style */
+
+
+.choose{
+    margin: 100px 0px;
+}
+.choose-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+.choose-description{
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    color: #131318B2;
+    line-height: 160%;
+}    
+
+.choose-card-1st{
+    display: flex;
+    gap: 30px;
+    margin: 40px 0px 20px 0px;
+}
+.choode-card-2nd{
+    width: 565px;
+    margin: 0 auto;
+}
+.single-card{
+    padding: 32px;
+    width: 500px;
+    border-radius: 16px;
+}
+.choose-card1{
+    background-color: #FBB56333;
+}
+.choose-card2{
+    background-color: #29CEF633;
+}
+.choose-card3{
+    background-color: #E9444433;
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 30px 0px 10px 0px;
+}
+.card-description{
+    width: 450px;
+    color: #5A5A5D;
+    line-height: 160%;
+}
 
 
 
@@ -282,6 +391,31 @@ nav ul li:hover a{
         .popular-img{
             margin-top: 20px;
             padding: 15px;
+        }
+
+
+        .destination-description,        
+        .destination-place-container img{
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        /* .choose{
+            width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+        } */
+        .single-card,
+        .card-description,
+        .choode-card-2nd
+        {
+            width: 100%;
+        }
+        .choose-description{
+            width: 100%;
+        }
+        .choose-card-1st{
+            flex-direction: column;
         }
 
 
