@@ -101,7 +101,7 @@ nav ul li:hover a{
 .option{
     color: #13131880;
 }
-.banner-btn{
+.banner-btn {
     background-color: #FF5400;
     color: #FFF;
     font-weight: 700;
@@ -143,7 +143,7 @@ nav ul li:hover a{
     margin-left: 30px;
     margin-top: 10px;
 }
-.popular-btn{
+.popular-btn, .primary-btn{
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
@@ -170,6 +170,12 @@ nav ul li:hover a{
     text-align: center;
     line-height: 160%;
 }
+/* .img-mid{
+    color: #bb3b3b;
+    font-size: 1.8rem;
+    font-weight: 800;
+    transform: translate(50% , -50%);
+} */
 
 .destination-place-container{
    /* display: grid;
@@ -331,6 +337,30 @@ nav ul li:hover a{
     color: #FFF;
     font-size: 2rem;
     font-weight: 700;
+}
+
+                /* perfect-place style */
+
+
+.perfect-place{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.perfect-place-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+.perfect-place-descriptin{
+    color: #5A5A5D;
+    line-height: 150%;
+}
+.text-content ul li{
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
         /* client style */
@@ -515,11 +545,13 @@ nav ul li:hover a{
         {
             width: 100%;
         }
-        .feedback
+        .feedback,
+        iframe
         {
             width: 100%;
         }
-        .choose-card-1st{
+        .choose-card-1st,
+        .perfect-place{
             flex-direction: column;
         }
         .single-card,
@@ -548,6 +580,7 @@ nav ul li:hover a{
         .title{
             font-size: 1.24rem;
         }
+
         .client{
             margin: 50px 0px;
             padding: 10px;
@@ -565,7 +598,3 @@ nav ul li:hover a{
     }
 
 
-
-    .hide{
-        display: none;
-    }
