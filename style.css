@@ -265,6 +265,73 @@ nav ul li:hover a{
     line-height: 160%;
 }
 
+            /* newsletter style */
+
+.news{
+    display: flex;
+    gap: 30px;
+}      
+.form{
+    
+    height: 340px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}      
+.form-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.form-description{
+    width: 300px;
+    margin: 20px 0px 25px 0px;
+    color: #5A5A5D;
+    line-height: 160%;
+}
+.form-input{
+    width: 350px;
+    color: #1313180D;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 20px;
+    outline: none;
+    border: none;
+    margin: 25px 0px;
+    display: block;
+}
+.subscribe{
+    width: 390px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.save{
+    width: 300px;
+    position: relative;
+    top: -155px;
+    left: 335px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    padding: 15px;
+}
+.description{
+    color: #FFF;
+    font-size: 1.5rem;
+}
+.title{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 
 
@@ -373,7 +440,9 @@ nav ul li:hover a{
         .popular-title{
             font-size: 2rem;
         }
-        .popular-tours{
+        .popular-tours,
+        .news
+        {
             flex-direction: column;
             padding: 15px;
             margin: 20px 0px;
@@ -407,7 +476,9 @@ nav ul li:hover a{
         } */
         .single-card,
         .card-description,
-        .choode-card-2nd
+        .choode-card-2nd,
+        .subscribe,
+        .descount img
         {
             width: 100%;
         }
@@ -416,6 +487,23 @@ nav ul li:hover a{
         }
         .choose-card-1st{
             flex-direction: column;
+        }
+        .form{
+            padding: 20px;
+        }
+        .form-input{
+            width: 90%;
+        }
+        .save{
+            width: 50%;
+            top: -110px;
+            left: 135px;
+        }
+        .description{
+            font-size: 0.9rem;
+        }
+        .title{
+            font-size: 1.24rem;
         }
 
 
