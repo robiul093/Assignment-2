@@ -333,6 +333,40 @@ nav ul li:hover a{
     font-weight: 700;
 }
 
+        /* client style */
+
+.client{
+    background-color: #EEEEFF;
+    text-align: center;
+    margin-bottom: 100px;
+}    
+.client-p{
+    color: tomato;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 20px 0px;
+    text-align: center;
+}    
+.client-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+.feedback{
+    width: 600px;
+    margin: 20px auto;
+    color: #131318B2;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.client-details{
+    color: #131318;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
 
 
 
@@ -444,7 +478,7 @@ nav ul li:hover a{
         .news
         {
             flex-direction: column;
-            padding: 15px;
+            padding: 10px;
             margin: 20px 0px;
         }
         .popular-tour-conent,
@@ -474,24 +508,33 @@ nav ul li:hover a{
             margin: 0 auto;
             padding: 10px;
         } */
-        .single-card,
+        
         .card-description,
-        .choode-card-2nd,
         .subscribe,
         .descount img
         {
             width: 100%;
         }
-        .choose-description{
+        .feedback
+        {
             width: 100%;
         }
         .choose-card-1st{
             flex-direction: column;
         }
+        .single-card,
+        .choode-card-2nd{
+            width: 90%;
+            padding: 10px;
+        }
+        .choode-card-2nd{
+            margin: 0;
+        }
         .form{
             padding: 20px;
         }
-        .form-input{
+        .form-input,
+        .choose-description{
             width: 90%;
         }
         .save{
@@ -505,10 +548,24 @@ nav ul li:hover a{
         .title{
             font-size: 1.24rem;
         }
+        .client{
+            margin: 50px 0px;
+            padding: 10px;
+        }
+        .client-title {
+            font-size: 2rem;
+            font-weight: 600;
+        }
 
 
         footer{
             padding: 30px 10px;
 
         }
+    }
+
+
+
+    .hide{
+        display: none;
     }
